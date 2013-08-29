@@ -11,22 +11,22 @@ class CellPhone: # Create the cell phone class
 	# Need first to create separate methods for each of the object parameters
 	# The methods below accept arguments for each of the parameters
 	def set_manufact(self, manufac): # Accept the argument for the manufacturer
-		self.__manufac = manufac
+		self.__manufac = manufac # This is a mutator method
 
 	def set_model(self, model): # Accept the argument for the model
-		self.__model = model
+		self.__model = model # This is a mutator method
 
 	def set_retailprice(self, retailprice): # Accept the argument for the price
-		self.__retailprice = retailprice
+		self.__retailprice = retailprice # This is a mutator method
 
 	# The following methods operate when the user asks for value of the object to be return
-	def get_manufac(self):
-		return self.__manufac
+	def get_manufac(self): # This is an accessor method
+		return self.__manufac 
 
-	def get_model(self):
+	def get_model(self): # This is an accessor method
 		return self.__model
 
-	def get_retailprice(self):
+	def get_retailprice(self): # This is an accessor method
 		return self.__retailprice
 
 def main(): # Create a basic function to test the cellphone class
