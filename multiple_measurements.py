@@ -2,7 +2,6 @@
 # and gives the posterior distribution after both 
 # values of the measurement are incorporated. The code allows for 
 # any sequence of measurement of any length.
-# Project: Artificial intelligence for robotics
 
 p = [0.2, 0.2, 0.2, 0.2, 0.2] # Initial probability array
 world = ['green', 'red', 'red', 'green', 'green'] # The world as observed
